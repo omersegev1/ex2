@@ -96,5 +96,10 @@ nav a:hover {
     color: #000;
     font-size: 24px;
     font-weight: 600;
+}
+
+#top_section_wrapper {
     width: 448px;
+    padding-left: 32px;
+    padding-top: 32px;
 }
