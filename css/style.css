@@ -67,6 +67,34 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(97, 41, 153, 1);
-    font-weight: 400;
+    color: rgb(97, 41, 153);
+}
+
+.selected {
+    color: rgb(97, 41, 153);
+}
+
+.top_section {
+    background-image: url('../images/background_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+
+    font-family: Nunito;
+    font-style: normal;
+    line-height: normal;
+}
+
+.top_section h1 {
+    color: #612999;
+    font-size: 96px;
+    font-weight: 800;
+}
+
+.top_section p {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    width: 448px;
 }
