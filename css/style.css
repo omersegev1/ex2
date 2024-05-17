@@ -141,3 +141,42 @@ footer {
     width: 200px;
     margin: 32px;
 }
+
+h3 {
+    color: #333;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.footer_item a {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.footer_item span {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer_links {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.footer_links a{
+    margin-right: 24px;
+}
