@@ -214,6 +214,7 @@ ul li {
 .contact_form .form_group textarea {
     resize: vertical;
     height: 150px;
+    max-height: 156px;
 }
 .contact_form .form_group button {
     padding: 10px 20px;
