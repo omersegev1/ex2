@@ -116,7 +116,11 @@ h2 {
     margin: 32px 0;
 }
 
-#wrapper p {
+#wrapper {
+    margin: 0 32px;
+}
+
+.about_section p {
     color: #000;
     text-align: justify;
     font-family: Rubik;
@@ -125,10 +129,6 @@ h2 {
     font-weight: 400;
     line-height: 140.625%;
     margin-bottom: 32px;
-}
-
-#wrapper {
-    margin: 0 32px;
 }
 
 footer {
@@ -188,7 +188,7 @@ h3 {
     box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
     width: 376px;
     height: 496px;
-    margin: 27px 32px 27px 0px;
+    margin: 0px 32px 27px 0px;
 }
 
 .card img {
@@ -203,6 +203,7 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 7px;
 }
 
 .card p {
@@ -212,6 +213,7 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 45px;
 }
 
 .card h5 {
@@ -222,4 +224,39 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.card div {
+    margin-left: 32px;
+}
+
+.heart {
+    background-color: #EFECFF;
+    background-image: url('../images/heart\ 3.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 40px;
+    width: 47px;
+    height: 47px;
+}
+
+.shopping_cart {
+    background-color: #612999;
+    background-image: url('../images/shopping-basket\ 1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 262px;
+    margin-top: 406px;
+    width: 63px;
+    height: 63px;
+}
+
+.cards_container{
+    display: flex;
+    flex-wrap: wrap;
 }
