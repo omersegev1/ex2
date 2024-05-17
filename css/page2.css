@@ -99,7 +99,7 @@ nav a:hover {
     margin-right: 32px;
 }
 
-.form {
+.contact_form {
     background-color: #EFECFF;
     height: 503px;
     margin-bottom: 32px;
@@ -183,4 +183,47 @@ ul li {
 
 .footer_links a {
     margin-right: 24px;
+}
+
+.contact_form {
+    font-family: Nunito;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+}
+.contact_form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.contact_form .form_group {
+    margin-bottom: 15px;
+}
+.contact_form .form_group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact_form .form_group input,
+.contact_form .form_group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.contact_form .form_group textarea {
+    resize: vertical;
+    height: 150px;
+}
+.contact_form .form_group button {
+    padding: 10px 20px;
+    background-color: #612999;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact_form .form_group button:hover {
+    background-color: rgb(97, 41, 153, 0.5);
 }
