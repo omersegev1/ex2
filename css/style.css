@@ -60,7 +60,7 @@ nav {
 }
 
 nav a {
-    color: rgb(97, 41, 153, 0.7);
+    color: rgb(97, 41, 153);
     font-family: Nunito;
     font-size: 30px;
     font-style: normal;
@@ -69,11 +69,11 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(97, 41, 153);
+    color: rgb(97, 41, 153, 0.7);
 }
 
 .selected {
-    color: rgb(97, 41, 153);
+    font-weight: 700;
 }
 
 .top_section {
@@ -92,19 +92,19 @@ nav a:hover {
     color: #612999;
     font-size: 96px;
     font-weight: 800;
+    width: 448px;
+    padding-left: 32px;
+    padding-top: 32px;
 }
 
 .top_section p {
     color: #000;
     font-size: 24px;
     font-weight: 600;
-}
-
-#top_section_wrapper {
     width: 448px;
     padding-left: 32px;
-    padding-top: 32px;
 }
+
 
 h2 {
     color: #612999;
