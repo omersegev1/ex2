@@ -244,6 +244,7 @@ h3 {
     margin-top: 40px;
     width: 47px;
     height: 47px;
+    cursor: pointer;
 }
 
 .shopping_cart {
@@ -257,6 +258,7 @@ h3 {
     margin-top: 406px;
     width: 63px;
     height: 63px;
+    cursor: pointer;
 }
 
 .cards_container{
