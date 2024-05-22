@@ -72,11 +72,10 @@ nav a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    transition: font-weight 0.3s, transform 0.3s;
 }
 
 nav a:hover {
-    font-weight: 700;
+    color: rgb(97, 41, 153, 0.5);
 }
 
 .selected {
